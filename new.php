@@ -11,7 +11,7 @@
     );
 
 
-//Get User Timelines
+//get_user_timeline function
 //This code is used to get user timeline
 function get_user_timelines($settings, $user_id = "18839785", $screen_name = "narendramodi", $count = "20") {
 
