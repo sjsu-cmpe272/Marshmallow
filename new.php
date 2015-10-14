@@ -1,6 +1,6 @@
-
+?
 <?php
-    require_once('TwitterAPIExchange.php');
+    require_once('TwitterAPIExchange.php'); 
      
     /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
     $settings = array(
@@ -12,6 +12,7 @@
 
 
 //Get User Timelines
+//This code is used to get user timeline
 function get_user_timelines($settings, $user_id = "18839785", $screen_name = "narendramodi", $count = "20") {
 
 	$url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
