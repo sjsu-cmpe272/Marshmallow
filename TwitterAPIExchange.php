@@ -17,7 +17,7 @@ class TwitterAPIExchange
     /**
      * @var string
      */
-    private $oauth_access_token;
+    private $oauth_access_token;// this is an oauth access token
 
     /**
      * @var string
