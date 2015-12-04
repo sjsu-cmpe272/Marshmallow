@@ -3,11 +3,11 @@
     require_once('TwitterAPIExchange.php'); 
      
     /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
-    $settings = array(
+   $settings = array(
         'oauth_access_token' => "3693376757-PI5bLRQtxbzB6GPaY42SLZHolaPZYw5GJEcsoE4",
         'oauth_access_token_secret' => "A1SpBKL0Onkgs7Yfg65yQbzFVJlrQoNHsZGKMdKQX8Ja8",
-        'consumer_key' => "0x7x3hW9qJ1s2lFZ2EF1FFNJw",
-        'consumer_secret' => "8CpMXLtGour0K1eLJ3laO9r0F58GWSADwfOzjfVJFbqvyvdNHL"
+        'consumer_key' => "JLlgDr4ZzuYtXM3HyiFrZchtm",
+        'consumer_secret' => "0zvr6HEblWioU5QQ9MOVotQ7RTze7xKyU5ESfzFF1fmhXzLGo5"
     );
 
 
