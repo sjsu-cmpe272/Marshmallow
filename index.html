@@ -1,0 +1,57 @@
+<html>
+<body background="clouds.jpg">
+
+<h1><center><u><font color="blue"> Using Twitter rest APIs </font></u></center></h1>
+
+<img src="Twitter_img.png" align="right" height="463" width="569"> 
+ <audio controls autoplay style="display:none;">
+  <source src="tweeters.mp3" type="audio/mpeg">
+</audio> 
+
+<form action="new.php" method="post">
+<H1><u> 1. Get User Timeline </u></H1>
+user id     : <input type="text" name="user_id1" ><br>
+screen name : <input type="text" name="screen_name1" ><br>
+count 	    : <input type="text" name="count1" ><br>
+<input type="submit" class="button" name="action" value="get_user_timeline" />
+
+<H1><u> 2. Get User Lookup </u></H1>
+user id     : <input type="text" name="user_id2" ><br>
+<input type="submit" class="button" name="action" value="get_user_lookup" />
+
+<H1><u> 3. Status_lookup </u></H1>
+Enter your id : <input type="text" name="id3"><br>
+<input type="submit" class="button" name="action"
+value="get_status_lookup"/>
+
+<H1><u> 4. Search_tweets </u></H1>
+Enter the string to be searched : <input type="text" name="q4"><br>
+<input type="submit" class="button" name="action"
+value="get_search_tweet"/>
+
+<H1><u> 5.Get_friend_list </u></H1>
+Enter the user id : <input type="text" name="id5"><br>
+<input type="submit" class="button" name="action"
+value="get_friend_list"/>
+
+<H1><u> 6.Get_Statuses_Retweets </u></H1>
+Enter the user id : <input type="text" name="id7"><br>
+Enter the count:<input type="text" name="count7"><br>
+<input type="submit" class="button" name="action"
+value="get_statuses_retweets"/>
+
+<H1><u> 7.Show_Status_id </u></H1>
+Enter the user id : <input type="text" name="id8"><br>
+<input type="submit" class="button" name="action"
+value="show_ids"/>
+
+<H1><u> 8. Get Follower Ids of a User ID</u></H1>
+Enter the user id : <input type="text" name="user_id10"><br>
+<input type="submit" class="button" name="action"
+value="follower_id"/>
+
+
+</form>
+</body>
+</html> 
+
